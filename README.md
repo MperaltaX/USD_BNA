@@ -33,16 +33,16 @@ __Ejecutar el script__
 
 > Ubicate en le directorio que descargaste y via consola o terminal ejecuta el siguiente comando
 `npm start`
-- Obtiene tanto la tabla de Billete como la de Divisa.
--  ![](https://i.imgur.com/8nWILLT.png)
+
 > Si ves estas lineas en la consola, se ha ejecutado correctamente.
 - APP INICIADA
 - Servidor corriendo en el puerto 3900
 - Conectado a la DB
 
-> Una vez conectado a la DataBase debes ejecutar el scrip que hace web Scraping a la pagina del banco para obtener los datos y almacenarlos en tu DB.
+> Una vez conectado a la DataBase debes ejecutar el script que hace web Scraping a la pagina del banco para obtener los datos y almacenarlos en tu DB.
  `node scrap.js`
-
+- Obtiene tanto la tabla de Billete como la de Divisa.
+-  ![](https://i.imgur.com/8nWILLT.png)
 
 > Listo ya puedes realizar consultas en postman o desde el navegador. 
 `http://localhost:3900/api/preciosDateName?fecha=16-07-2023&titulo=Euro`
